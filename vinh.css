@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+@media(max-width:740px){
+    #backgroud{
+        position: relative;
+        width: 100%;
+        min-height: auto;
+    }
+    #open{
+        border-radius: 50px;
+        border: none;
+        background: #000;
+        color: white;
+        cursor: pointer;
+        top: 0;
+        position: absolute;
+        padding: 10px;
+    }
+    #close{
+        border-radius: 50px;
+        border: none;
+        background: #000;
+        color: white;
+        cursor: pointer;
+        margin-left: 50px;
+        top: 0;
+        position: absolute;
+        padding: 10px 16px;
+    }
+    #white{
+        border-radius: 50px;
+        border: none;
+        background: #000;
+        color: white;
+        cursor: pointer;
+        margin-left: 98px;
+        top: 0;
+        position: absolute;
+        padding: 10px 8px;
+    }
+    #noi-dung{
+        border: 2px solid rgb(126, 124, 124);
+        box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
+        background: rgb(146, 248, 106);
+        color: rgb(0, 0, 0);
+        cursor: pointer;
+        top: 0;
+        padding: 10px 8px;
+    }
+    #cut{
+        position: absolute;
+        color: black;
+        right: 0;
+        margin-right: 25px;
+        padding: 5px 8px;
+        cursor: pointer;
+    }
+    /* h1 */
+    .text-contens{
+        padding: 10px;
+        margin-top: 50px;
+        text-align: center;
+    }
+    .content-top{
+        margin-top: 50px;
+        width: 100%;
+        text-align: center;
+    }
+    #sub{
+        box-shadow: 0 4px 10px 0 rgb(0 0 0 / 60%), 0 4px 20px 0 rgb(0 0 0 / 30%);
+        margin-top: 5px;
+        margin-left: 5%;
+        width: 90%;
+        height: 400px;
+        background: chocolate;
+    }
+    #sub .icon{
+        margin-left: -5px;
+        color: chocolate;
+        font-size: 20px;
+        margin-top: -8px;
+        position: absolute;
+    }
+    .sub-contents{
+        text-align: center;
+        width: 100%;
+    }
+    .text{
+        letter-spacing: 3px;
+        padding: 10px 0px;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+    }
+    .contents-text{
+        text-align: justify;
+    }
+}
